@@ -3,7 +3,7 @@ import './css/pure-min.css';
 import './css/side-menu.css';
 import $ from 'jquery';
 import InputCustomizado from './componentes/InputCustomizado.js';
-import BotaoCustomizado from './componentes/BotaoCustomizado.js';
+import BotaoSubmitCustomizado from './componentes/BotaoSubmitCustomizado.js';
 
 class App extends Component {
 
@@ -94,7 +94,7 @@ class App extends Component {
                       <InputCustomizado id="senha" type="password" name="senha" value={this.state.senha} onChange={this.setSenha} label="Senha"/>
                       <div className="pure-control-group">
                         <label></label>
-                        <BotaoCustomizado type="submit"/>
+                        <BotaoSubmitCustomizado/>
                       </div>
                     </form>
 
