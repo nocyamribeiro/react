@@ -94,7 +94,7 @@ class App extends Component {
                       <InputCustomizado id="senha" type="password" name="senha" value={this.state.senha} onChange={this.setSenha} label="Senha"/>
                       <div className="pure-control-group">
                         <label></label>
-                        <BotaoSubmitCustomizado/>
+                        <BotaoSubmitCustomizado label="Gravar"/>
                       </div>
                     </form>
 
